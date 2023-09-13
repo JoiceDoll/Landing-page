@@ -1,6 +1,8 @@
 # Landing-page
 A simple modern architecture landing page.
 
+use NPM RUN DEV to run server and client. 🏃‍♀️
+
 [Uma Landing page simples sobre arquitetura moderna.]
 
 - Server: Node.js, Typescript.
