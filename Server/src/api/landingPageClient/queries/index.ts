@@ -1,0 +1,1 @@
+export {registerQuery} from "./RegisterQuery"

@@ -1,14 +1,6 @@
-import pg from "pg";
+import { Pool } from "pg";
 
-// const db = new pg.Client({
-//   user: "postgres",
-//   host: "localhost",
-//   database: "postgres",
-//   password: "alohomora",
-//   port: 5432,
-// });
-
-const db = new pg.Client({
+const db = new Pool({
   user: process.env.USER_DATABASE,
   host: process.env.HOST_DATABASE,
   database: process.env.DATABASE,
